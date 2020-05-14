@@ -1,0 +1,90 @@
+body{
+	margin: 0;
+}
+
+.page-top {
+    background: green;
+    padding: 10px;
+     text-align: center;
+}
+.page-top h1{
+   color: white;
+   font-family: cursive;
+  
+}
+.page-top img{
+float: left;
+width: 150px;
+}
+nav.menu ul{
+	background-color:yellow;
+	margin: 0; 
+	padding: 20px;
+}
+
+nav.menu ul li{
+list-style-type:none;
+display:inline;
+padding-right:  25px;
+}
+
+nav.menu ul li a{
+text-decoration: none;
+color: blue;
+font-size: 20px;
+font-family: sans-serif;
+padding: 20px;
+}
+
+nav.menu ul li a:hover{
+background-color:grey; 
+}
+
+.sidebar{
+    width: 15%;
+    height: 540px;
+    color: white;
+    float: left;
+   
+}
+.sidebar ul{
+	margin: 0;
+	padding: 7px;
+	background-color:red;
+	height: 554.1px;
+}
+.sidebar li{
+
+	list-style-type: none; /*li tagındaki noktaları kaldırdı*/
+    padding: 7px;
+    border-bottom: 1px solid #999;
+
+}
+.sidebar li a{
+	color: white;
+	 padding: 7px;
+	text-decoration: none; /*linklerin altındaki çizgiyi kaldırıyor*/
+ 
+}
+.sidebar li a:hover{
+	background-color:grey;
+	
+}
+.change{
+	width: 83.9%;
+	float: left;
+	height: 554.1px;
+
+}
+.change figure{
+border: 1px solid #666;
+text-align: center;
+}
+.change figcaption{
+coler:#444;
+font-size: 12px;
+}
+#result{
+	color: green;
+}
+
